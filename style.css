@@ -1,0 +1,137 @@
+.bd{
+    text-align: center;
+}
+.center form{
+   padding: 2px;
+   border-top: 4px solid blue;
+   border-left: 4px solid blue ;
+   border-bottom: 4px solid orangered;
+   border-right: 4px solid orangered;
+   border-radius: 15px;
+   box-shadow: 2px 2px 10px;
+   
+}
+#tableau {
+    background: rgb(245, 241, 241);
+    margin: 5px 30px 30px 30px;
+    padding-bottom: 10px;
+}
+
+div .p{ 
+   color: white;
+   font-size: 20px;
+   height: 25px;
+   background: blue;
+   width: 500px;
+   padding: 10px;
+}
+div p{ 
+    height: 30px;
+    background: blue;
+    margin: 0;
+    width: 500px;
+}
+.center {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+input{
+    height: 25px;
+    width: 480px;
+    padding: 5px;
+    margin-top: 10px;
+    border: none;
+    border-bottom: 3px solid blue;
+    border-top: 2px solid orangered;
+    border-radius: 7px;
+}
+
+#boutton{
+color: white;
+height:40px;
+background: blue;
+border: 0;
+border-radius: 10px;
+font-weight: bolder;
+font-size: 25px;
+}
+#boutton:active{
+background: orangered;
+}
+#boutton:hover{
+    transform: scale(1.05);
+    }
+
+#rs{
+font-size: 24px;
+padding: 5px;
+margin-top: 10px;
+background-color: orangered;
+color: white;
+font-weight: bold;
+}
+.menu{
+    position: fixed;
+    left: 0;
+    width: 60px;
+    color: blue;
+}
+
+
+/*Pour le menu*/
+.body{
+    margin: 0;
+    padding: 0;
+    background-image: url('calculator.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    background-color: rgb(210, 13, 62);
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav li {
+    float: left;
+    list-style-type: none;
+    
+}
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 20px 30px;
+    font-size: 25px;
+    
+}
+.nav{
+    display: table;
+    margin: 0 auto;
+}
+.cadd:hover{
+    background-color: rgba(252, 252, 252, 0.2);
+    border-top: 8px solid white;
+    
+}
+.csoust:hover{
+    background-color: rgba(252, 252, 252, 0.2);
+    border-top: 8px solid white;
+}
+.cmult:hover{
+    background-color: rgba(252, 252, 252, 0.2);
+    border-top: 8px solid white;
+}
+.cdiv:hover{
+    background-color: rgba(252, 252, 252, 0.2);
+    border-top: 8px solid white;
+}
+.a:hover{
+    padding: 15px 30px;
+}
