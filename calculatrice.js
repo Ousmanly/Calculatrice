@@ -7,7 +7,7 @@ function Multiplication() {
     
     let c = parseFloat(document.getElementById('c').value);
     
-    if (!isNaN(a) && !isNaN(b) && isNaN(c)) {
+    if (!isNaN(a) && !isNaN(b) && !isNaN(c)) {
         let resultat = a * b
         document.getElementById('rs').innerText = 'Le résultat est : ' + resultat;
         a =document.getElementById('a').value='';
